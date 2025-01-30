@@ -6,7 +6,7 @@ import { useState } from "react";
 function App() {
   const [listadoState, setListadoState] = useState([]);
   return (
-    <div class="layout">
+    <div className="layout">
       {/* CABECERA */}
       <header className="header">
         <div className="logo">

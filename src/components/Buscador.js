@@ -23,7 +23,7 @@ const Buscador = ({listadoState, setListadoState}) => {
   return (
     <div className="search">
       <h3 className="title">Buscador:{busqueda}</h3>
-      {noEncontrado == true && (
+      {noEncontrado === true && (
           <span className="no-encontrado">No se ha encontrado coincidencias</span>
       )}
       <form>

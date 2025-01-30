@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# Pagina web de Peliculas 🎥
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+La pagina esta enfocada en ser una pagina para mostrar el titulo y descripcion de las peliculas que quieras.
+No utilice ninguna base de datos, la informacion se almacena en el localStorage del navegador.
 
-## Available Scripts
+## Tabla de Contenidos
 
-In the project directory, you can run:
+- [Características](#caracteristicas)
+- [Diseño y estructura](#diseño)
+- [Tecnologías](#tecnologias)
+- [Instalación](#instalacion)
+- [Interfaz](#interfaz)
+- [Despliegue](#despliegue)
+- [Contacto](#contacto)
 
-### `npm start`
+## Características 💬 <a id="caracteristicas"></a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Buscador de películas: Permite buscar las películas añadidas a tu lista.
+- Añadir películas: Opción para agregar nuevas películas ingresando un título y una descripción.
+- Eliminar películas: Permite eliminar cualquier película de la lista.
+- Editar películas: Posibilita modificar el título y la descripción de las películas registradas.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Diseño y estructura del proyecto 🎨 <a id="diseño"></a>
 
-### `npm test`
+- **HTML5**: Para la estructura del contenido.
+- **CSS3**: Para la estilización y personalización de la interfaz.
+- **Flexbox**: Para la distribución y alineación flexible de los elementos.
+- **CSS Grid Layout**: Para la organización avanzada de la disposición en cuadrícula.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tecnologías 🌐 <a id="tecnologias"></a>
 
-### `npm run build`
+- **React**: Biblioteca principal para la construcción de la interfaz de usuario.
+- **ReactDOM**: Renderiza los componentes de React en el DOM.
+- **useState**: Hook para manejar el estado local de los componentes.
+- **useEffect**: Hook para gestionar efectos secundarios, como llamadas a APIs o sincronización con el DOM.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Antes de instalar, descargue e instale Node.js.☑️
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clona el repositorio:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+  git clone https://github.com/freya-godoy/Red-Social-Backend.git
+```
 
-### `npm run eject`
+2. Instala dependencias del proyecto:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```sh
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Interfaz 💻 <a id="interfaz"></a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Inicio 💻
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Pantalla de inicio](./imagenes-readme/misPelis-inicio.png)
 
-## Learn More
+Agregar pelicula 🎬
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Pantalla de inicio](./imagenes-readme/pelicula-agregada.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Editar pelicula 📝
 
-### Code Splitting
+![Pantalla de inicio](./imagenes-readme/editar-peliculas.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Eliminar pelicula 🚮
 
-### Analyzing the Bundle Size
+![Pantalla de inicio](./imagenes-readme/pelicula-eliminada.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Despliegue 📂 <a id="despliegue"></a>
 
-### Making a Progressive Web App
+Despliegue desde la consola:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```sh
+npm start
+```
 
-### Advanced Configuration
+## Contribuciones 👇
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+¡Las contribuciones son bienvenidas! Sigue estos pasos:
 
-### Deployment
+1. Haz un fork del repositorio.
+2. Crea una rama nueva: `git checkout -b nueva-rama`.
+3. Realiza tus cambios y haz un commit: `git commit -m "Descripción"`.
+4. Sube los cambios: `git push origin nueva-rama`.
+5. Abre un Pull Request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Contacto 📬 <a id="contacto"></a>
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Email: freya.godoy.20@hotmail.com
