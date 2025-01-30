@@ -1,6 +1,6 @@
 # Pagina web de Peliculas 🎥
 
-La pagina esta enfocada en ser una pagina para mostrar el titulo y descripcion de las peliculas que quieras.
+Pagina estatica enfocada en mostrar el titulo y descripcion de las peliculas que quieras.
 No utilice ninguna base de datos, la informacion se almacena en el localStorage del navegador.
 
 ## Tabla de Contenidos
